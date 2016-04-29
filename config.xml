@@ -1,6 +1,6 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.carwash.mohammad" version="1.0.0">
-  <name>Car Wash</name>
-  <description>Mobile Car Wash Team washes your car at your door.</description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.carwash.mohammad1" version="1.2.0">
+  <name>Car Wash Employee</name>
+  <description>Application For Mobile Car Wash Team.</description>
   <author href="" email="mohammad_ahmadzai@hotmail.co.uk">Mohammad Ahmadzai</author>
   <content src="index.html"/>
   <preference name="phonegap-version" value="3.5.0" />
@@ -37,10 +37,7 @@
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
 
- <plugin name="nl.x-services.plugins.launchmyapp" source="pgb">
-    <param name="URL_SCHEME" value="carwashapp" />
-</plugin>
-  <icon src="icon.png"/>
+  <icon src="logo.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
